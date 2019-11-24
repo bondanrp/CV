@@ -60,7 +60,8 @@ body {
 }
 .header > div > h4 {
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 400;
+  letter-spacing: 1px;
   text-align: justify;
   line-height: 25px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -74,6 +75,7 @@ body {
 }
 .header > div > hr {
   border: 0.5px solid white;
+  width: 80%;
 }
 .header > div > h1 {
   text-align: center;
@@ -91,13 +93,13 @@ body {
   width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 300px 300px auto;
+  grid-template-rows: auto;
   column-gap: 10px;
   row-gap: 10px;
 }
 .profile {
   width: 94%;
-  margin: 50px auto;
+  margin: 35px auto;
   display: grid;
   grid-template-columns: 210px 1px 4fr;
   grid-template-rows: auto;
@@ -116,11 +118,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
+  /* font-family: "calistoga"; */
   text-align: left;
   padding-right: 20px;
   padding-left: 20px;
   letter-spacing: 3px;
   font-size: 25px;
+  text-transform: uppercase;
 }
 .grid > div {
   border-top: 2px solid #12b094;
@@ -150,6 +154,11 @@ body {
   margin: 0 auto;
   width: 94%;
 }
+.profile > div > h2 {
+  font-family: "calistoga";
+  letter-spacing: 2px;
+}
+
 .profile > div > h4 {
   margin: 5px auto;
   color: #12b094;
@@ -171,11 +180,14 @@ h4 {
   column-gap: 30px;
 }
 .skills > div > h2 {
-  font-weight: 700;
+  font-weight: 400;
+  letter-spacing: 1px;
   font-size: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
   text-align: center;
+
+  font-family: "calistoga";
   margin: 0;
 }
 .skills > div > p {
@@ -188,10 +200,10 @@ h4 {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 5px 1fr 5px 1fr 5px;
 }
 .technical > p {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  /* border-bottom: 1px solid #12cfad; */
   padding-top: 5px !important;
   padding-bottom: 5px !important;
 }
@@ -202,6 +214,8 @@ h4 {
 }
 p {
   line-height: 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 .profile:nth-of-type(1) {
   margin-top: 0 !important;
@@ -213,5 +227,98 @@ i {
   color: rgba(0, 0, 0, 0.3);
 }
 hr {
-  border: 1px solid #12b094;
+  border: none;
+  border-top: 1px solid #12b094;
+}
+.skills > div > div {
+  width: 90%;
+  margin: 10px auto;
+  height: 20px;
+  background: #f7f7f7;
+  border-radius: 20px;
+}
+.skill1 {
+  height: 20px;
+  background: #12cfad;
+  width: 85%;
+  border-radius: 20px;
+  z-index: 20;
+}
+.skill2 {
+  height: 20px;
+  background: #12cfad;
+  width: 80%;
+  border-radius: 20px;
+  z-index: 20;
+}
+.skill3 {
+  height: 20px;
+  background: #12cfad;
+  width: 65%;
+  border-radius: 20px;
+  z-index: 20;
+}
+.bar {
+  background: #f7f7f7;
+  width: 80%;
+  border-radius: 5px;
+}
+.tech85 {
+  background: #12cfad;
+  width: 85%;
+  height: 5px;
+}
+.tech80 {
+  background: #12cfad;
+  width: 80%;
+  height: 5px;
+}
+.tech70 {
+  background: #12cfad;
+  width: 70%;
+  height: 5px;
+}
+.tech60 {
+  background: #12cfad;
+  width: 60%;
+  height: 5px;
+}
+.info {
+  padding: 40px 20px;
+}
+.info > h1 {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  /* font-family: "calistoga"; */
+  text-align: left;
+  padding-right: 20px;
+  padding-left: 20px;
+  letter-spacing: 3px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.soft-skill {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  row-gap: 8px;
+  margin: 20px 0 30px 0;
+}
+.soft-skill > div {
+  text-align: end;
+}
+.soft-skill > div > i {
+  margin: 2px;
+  color: #12cfad;
+}
+.soft-skill > h3 {
+  /* padding-left: 20px; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin: 0;
 }
