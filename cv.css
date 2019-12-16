@@ -38,7 +38,7 @@ body > div {
 }
 .header {
   height: 250px;
-  background: #12b094;
+  background: #017a82;
   color: white;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
   display: grid;
@@ -51,7 +51,7 @@ body > div {
 }
 
 .header > div > p > i {
-  /* color: #12b094; */
+  /* color: #017a82; */
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
 }
@@ -62,7 +62,7 @@ body > div {
   letter-spacing: 2px;
   margin: 0;
   padding: 0;
-  /* color: #12b094; */
+  /* color: #017a82; */
 }
 .header > div:nth-of-type(2) {
   /* padding: 50px; */
@@ -110,39 +110,52 @@ body > div {
   width: 94%;
   margin: 35px auto;
   display: grid;
-  grid-template-columns: 210px 1px 4fr;
-  grid-template-rows: auto;
+  grid-template-columns: 50px 1px 4fr;
+  grid-template-rows: 1fr;
   column-gap: 10px;
+  position: relative;
+  min-height: 170px;
+}
+.profile > div:nth-of-type(2) {
+  background: #017a82;
 }
 .profile > div:nth-of-type(2) {
   /* background: black; */
   width: 100%;
   height: 100%;
 }
-.profile > div {
-  /* background: red; */
+.profile > div:nth-of-type(1) {
+  position: relative;
+  /* background-color: black; */
 }
-.profile > div > h1 {
+.profile > div:nth-of-type(1) > h1 {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   /* font-family: "calistoga"; */
-  text-align: left;
-  padding-right: 20px;
-  padding-left: 20px;
-  letter-spacing: 3px;
+  /* text-align: right !important; */
+  width: 170px;
+  /* padding-right: 20px; */
+  padding-left: 5px;
+  letter-spacing: 6px;
   font-size: 25px;
   text-transform: uppercase;
+  position: absolute;
+  left: 30px;
+  top: 0;
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+  text-decoration: ;
 }
 .grid > div:nth-of-type(2) > div {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
   background: white;
-  border-top: 2px solid #12b094;
+  border-top: 2px solid #017a82;
 }
 .grid > div:nth-of-type(1) {
   background: white;
-  border-top: 2px solid #12b094;
+  border-top: 2px solid #017a82;
   width: 100%;
   height: 100%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
@@ -176,7 +189,7 @@ body > div {
 
 .profile > div > h4 {
   margin: 5px auto;
-  color: #12b094;
+  color: #017a82;
   font-weight: 400 !important;
   letter-spacing: 1px;
 }
@@ -195,8 +208,8 @@ h4 {
   column-gap: 15px;
 }
 .skills > div:nth-of-type(even) {
-  /* background: #12b094; */
-  border-right: 1px solid #12b094;
+  /* background: #017a82; */
+  border-right: 1px solid #017a82;
   width: 100%;
   height: 100%;
 }
@@ -224,7 +237,7 @@ h4 {
   grid-template-rows: 1fr 5px 1fr 5px 1fr 5px;
 }
 .technical > p {
-  /* border-bottom: 1px solid #12cfad; */
+  /* border-bottom: 1px solid #017a82; */
   padding-top: 5px !important;
   padding-bottom: 5px !important;
 }
@@ -259,64 +272,64 @@ i {
 }
 hr {
   border: none;
-  border-top: 1px solid #12b094;
+  border-top: 1px solid #017a82;
 }
 .skills > div > div {
   width: 90%;
   margin: 10px auto;
   height: 20px;
-  background: #f7f7f7;
+  background: #ddd;
   border-radius: 20px;
 }
 .skill1 {
   height: 20px;
-  background: #12cfad;
+  background: #017a82;
   width: 85%;
   border-radius: 20px;
   z-index: 20;
 }
 .skill2 {
   height: 20px;
-  background: #12cfad;
+  background: #017a82;
   width: 80%;
   border-radius: 20px;
   z-index: 20;
 }
 .skill3 {
   height: 20px;
-  background: #12cfad;
+  background: #017a82;
   width: 65%;
   border-radius: 20px;
   z-index: 20;
 }
 .bar {
-  background: #f7f7f7;
+  background: #ccc;
   width: 80%;
   border-radius: 5px;
 }
 .tech85 {
-  background: #12cfad;
+  background: #017a82;
   width: 85%;
   height: 5px;
 }
 .tech80 {
-  background: #12cfad;
+  background: #017a82;
   width: 80%;
   height: 5px;
 }
 .tech70 {
-  background: #12cfad;
+  background: #017a82;
   width: 70%;
   height: 5px;
 }
 .tech60 {
-  background: #12cfad;
+  background: #017a82;
   width: 60%;
   height: 5px;
 }
 .info {
   padding: 40px 20px;
-  height: min-content !important;
+  height: min-content;
 }
 .info > h1 {
   margin: 0;
@@ -343,7 +356,7 @@ hr {
 }
 .soft-skill > div > i {
   margin: 3px 2px 0 0;
-  color: #12cfad;
+  color: #017a82;
 }
 .soft-skill > h3 {
   /* padding-left: 20px; */
@@ -410,7 +423,7 @@ hr {
 .plus5,
 .plus6 {
   position: absolute;
-  background: #12b094;
+  background: #017a82;
   border-radius: 0;
 }
 .plus11,
