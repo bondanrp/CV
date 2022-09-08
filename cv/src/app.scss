@@ -1,0 +1,72 @@
+.CV {
+  position: relative;
+  &__stack {
+    margin-bottom: 20px;
+    &__item {
+      p {
+        margin: 0;
+      }
+      display: flex;
+      align-items: center;
+      border: 1px solid rgb(129, 127, 124);
+      padding: 0 5px;
+      border-radius: 4px;
+    }
+  }
+  .nowrap {
+    white-space: nowrap;
+  }
+  .icon {
+    margin-top: 10px;
+    width: 30px;
+    border-radius: 4px;
+  }
+  .sub {
+    color: rgb(129, 127, 124);
+  }
+  .text-sm {
+    font-size: 0.8em;
+    text-align: justify;
+  }
+  h1 {
+    font-family: "Domaine Display", serif;
+    font-weight: 600;
+    // color: #8cae68;
+  }
+  h3 {
+    font-family: "Domaine Display", serif;
+    font-weight: 500;
+  }
+  h5 {
+    font-family: "Domaine Display", serif;
+    font-weight: 300;
+  }
+  h6 {
+    font-family: "Domaine Display", serif;
+    font-weight: 300;
+  }
+  h2 {
+    font-weight: 300;
+  }
+
+  &__header {
+    width: 100vw;
+    background: #fcfcfc;
+    padding: 20px 0;
+  }
+  &__banner {
+    background-color: rgb(0, 154, 123);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+    color: white;
+    font-weight: light;
+    font-family: "Roboto", serif;
+  }
+  &__education {
+    margin-top: 40px;
+  }
+}

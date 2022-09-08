@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Kartel Daun",
+        "key":"kd",
+        "from":"Aug 2021",
+        "to":"Present",
+        "details":"Technical Advisor and QA Tester. Helped develop parts of the previous version of the internal system using Google AppScript. QA'd the internal system. Overseeing the development of new internal system and main eCommerce website"
+    },
+    {
+        "name":"KlikUMKM",
+        "key":"klik",
+        "from":"Feb 2022",
+        "to":"Jul 2022",
+        "details":"Developmed the front end user flow for the registration, KYC, and login on the main website using TypeScript"
+    }
+]

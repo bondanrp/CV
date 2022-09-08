@@ -1,0 +1,23 @@
+[
+    {
+        "name":"Purwadhika Digital Technology School",
+        "degree":"Bootcamp",
+        "major":"Web and Mobile Development",
+        "from":"Jun 2019",
+        "to":"Nov 2019"
+    },
+    {
+        "name":"Universitas Prasetiya Mulya",
+        "degree":"Bachelor's Degree",
+        "major":"Finance",
+        "from":"Jul 2013",
+        "to":"Dec 2018"
+    },
+    {
+        "name":"SMA Pangudi Luhur 1 Brawijaya",
+        "degree":"High School",
+        "major":"Social Science",
+        "from":"Jun 2013",
+        "to":"Jul 2010"
+    }
+]

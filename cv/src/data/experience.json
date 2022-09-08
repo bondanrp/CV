@@ -1,0 +1,44 @@
+[
+    {
+        "name":"Pensieve Technology",
+        "key":"pensieve",
+        "location":"South Jakarta",
+        "title":"Web Developer",
+        "from":"Nov 2021",
+        "to":"Present",
+        "stack":["ReactJS","EJS","NodeJS","MySQL","ElasticSearch", "Docker"],
+        "details":[
+            "Created dashboards with complex components using ReactJS according to the client's requirements",
+            "Worked alongside an international team to provide the best solution",
+            "Reviewed codes and provide advice and support to other team members"
+        ]
+    },
+    {
+        "name":"PT Paprika Multimedia",
+        "key":"paprika",
+        "title":"Front End Web Developer",
+        "location":"South Jakarta",
+        "from":"Sep 2020",
+        "to":"Nov 2021",
+        "stack":["ReactJS","React Native", "NodeJS"],
+        "details":[
+            "Sole Front End Website Developer for Paprika.",
+            "Tasked with the development and maintainance of the main Paprika website",
+            "Tasked with the development and maintainance of the dashboard for both Paprika admins and outlets"
+        ]
+    },
+    {
+        "name":"PT Sribu Digital Kreatif",
+        "key":"sribu",
+        "title":"Front End Web Developer",
+        "location":"South Jakarta",
+        "from":"Dec 2019",
+        "to":"Apr 2020",
+        "stack":["PreactJS","GraphQL"],
+        "details":[
+            "Tasked to recreate and develop the main Sribulancer website by using a newer framework, Preact JS, to improve overall stability and performance.",
+            "Implemented atomic design by creating modular components to optimize front-end development workflow.",
+            "Integrated GraphQL to front-end architecture."
+        ]
+    }
+]
